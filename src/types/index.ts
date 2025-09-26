@@ -3,6 +3,7 @@ export interface CountyInfo {
   note?: string;
   difficulty?: string;
   offlineOnly?: boolean;
+  taxBillUrl?: string;
 }
 
 export interface StateData {
@@ -17,6 +18,7 @@ export interface CountyData {
   note?: string;
   difficulty?: string;
   offlineOnly?: boolean;
+  taxBillUrl?: string;
 }
 
 export type State = "FL" | "TX" | "GA" | null;

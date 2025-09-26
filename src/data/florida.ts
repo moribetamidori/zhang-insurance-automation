@@ -1021,344 +1021,437 @@ export const floridaData: StateData = {
       url: "https://www6.citizenserve.com/Portal/PortalController?Action=showPermit&ctzPagePrefix=Portal_&installationID=318&original_iid=0&original_contactID=0",
       note: `Click "Search for a permit". Use parcel # for maximum efficiency. Address search not recommended.`,
       difficulty: "medium",
+      taxBillUrl: "https://county-taxes.net/alachua/property-tax",
     },
     "Baker County": {
       url: "https://www.bakercountyfl.org/communitydevelopment.php",
       note: "Offline-Only: Baker County does not have an online permit lookup system. You may have to contact the office directly. To contact: https://permithunt.com/directory/state/florida/county/baker",
       difficulty: "hard",
       offlineOnly: true,
+      taxBillUrl:
+        "https://www.bakertaxcollector.com/Property/SearchSelect?Accept=true&ClearData=True",
     },
     "Bay County": {
       url: "https://www.baycountyfl.gov/155/Permits",
       note: "Search by address shoule be relatively easy.",
       difficulty: "easy",
+      taxBillUrl: "https://county-taxes.net/fl-bay/property-tax",
     },
     "Bradford County": {
       url: "https://portal.iworq.net/BRADFORDFL/permits/600",
       note: "Search by address or parcel# should be relatively easy.",
       difficulty: "easy",
+      taxBillUrl:
+        "https://www.bradfordtaxcollector.com/Property/SearchSelect?Accept=true&ClearData=True",
     },
     "Brevard County": {
       url: "https://acaweb.brevardcounty.us/citizenaccess/",
       note: `Click "Building" and search for permit, for maximum efficency use Property Appraiser's Account Number. They also have a legacy system where you can search permit from 1990-2007:https://sites.brevardcounty.us/LPS#/LegacyPermitSearch`,
       difficulty: "hard",
+      taxBillUrl: "https://county-taxes.net/brevard/property-tax",
     },
     "Broward County": {
       url: "https://dpepp.broward.org/BCS/Default.aspx?PossePresentation=ParcelSearchByAddress",
       note: "Search by address (need to be exact) or parcel# should be relatively easy.",
       difficulty: "medium",
+      taxBillUrl: "https://county-taxes.net/broward/broward/property-tax",
     },
     "Calhoun County": {
       url: "https://www.calhouncountyfl.gov/building-department/",
       note: "Offline-Only: Calhoun County does not have an online permit lookup system. You may have to contact the office directly. To contact: https://permithunt.com/directory/state/florida/county/calhoun",
       offlineOnly: true,
+      taxBillUrl:
+        "https://www.calhouncountytaxcollector.com/Property/SearchSelect?Accept=true&ClearData=True",
     },
     "Charlotte County": {
       url: "https://aca-prod.accela.com/BOCC/Cap/CapHome.aspx?module=Building&TabName=Building",
       note: "Search by address or parcel# should be relatively easy.",
       difficulty: "easy",
+      taxBillUrl: "https://county-taxes.net/charlotte/property-tax",
     },
     "Citrus County": {
       url: "https://apps.citrusbocc.com/permitsearch/",
       note: "Search by address or parcel# should be relatively easy.",
       difficulty: "easy",
+      taxBillUrl: "https://county-taxes.net/citrus/property-tax",
     },
     "Clay County": {
       url: "https://public.claycountygov.com/permitsearch/",
       note: "Search by address or parcel# should be relatively easy.",
       difficulty: "easy",
+      taxBillUrl: "https://county-taxes.net/fl-clay/property-tax",
     },
     "Collier County": {
       url: "https://cvportal.colliercountyfl.gov/CityViewWeb/Home/ ",
       note: `Click "Search for a Property" to access permit information by address. For more detailed permit information, you might need to create an account at https://cvportal.colliergov.net/CityViewWeb/Account/Logon`,
       difficulty: "medium",
+      taxBillUrl: "https://county-taxes.net/fl-collier/property-tax",
     },
     "Columbia County": {
       url: "https://www.columbiacountyfla.com/PermitSearch/",
       note: "Search by address or parcel# should be relatively easy.",
       difficulty: "easy",
+      taxBillUrl: "https://columbia.floridatax.us/AccountSearch?s=pt",
     },
     "DeSoto County": {
       url: "https://desotocountyfl-energovpub.tylerhost.net/Apps/SelfService#/search",
       note: "Search by address or parcel# should be relatively easy.",
       difficulty: "easy",
+      taxBillUrl:
+        "https://www.desotocountytaxcollector.com/Property/SearchSelect?Accept=true&ClearData=True",
     },
     "Dixie County": {
       url: "https://dixiecounty.portal.iworq.net/DIXIECOUNTY/permits/600",
       note: "Search by address or parcel# should be relatively easy.",
       difficulty: "easy",
+      taxBillUrl: "https://dixie.floridatax.us/AccountSearch?s=pt",
     },
     "Duval County": {
       url: "https://jaxepics.coj.net/Search/SearchResults",
       note: "Search by address or parcel# should be relatively easy.",
       difficulty: "easy",
+      taxBillUrl: "https://county-taxes.net/fl-duval/property-tax",
     },
     "Escambia County": {
       url: "https://www.mygovernmentonline.org/permits/",
       note: "Escambia County uses MGO for permit lookup, you have to register for it. MGO is a comprehensive online service that allows users to apply for permits, pay fees, request inspections, and search for permit data. Users will need to create an account on the MGO platform and select the correct jurisdiction.",
       difficulty: "easy",
+      taxBillUrl: "https://county-taxes.net/fl-escambia/property-tax",
     },
     "Flagler County": {
       url: "https://www.flaglercounty.gov/Growth-Building/Central-Permitting",
       note: "You have to register for an account to use the system. You can search by address or parcel#.",
       difficulty: "medium",
+      taxBillUrl: "https://county-taxes.net/fl-flagler/property-tax",
     },
     "Franklin County": {
       url: "https://www4.citizenserve.com/Portal/PortalController?Action=showHomePage&ctzPagePrefix=Portal_&installationID=389&original_iid=0&original_contactID=0",
       note: "Search by address or parcel# should be relatively easy.",
       difficulty: "easy",
+      taxBillUrl:
+        "https://www.franklincountytaxcollector.com/Property/SearchSelect?Accept=true&ClearData=True",
     },
     "Gadsden County": {
       url: "https://apps.gov-easy.com/Home/PermitInspection/Search?",
       note: "Search by address or parcel# should be relatively easy.",
       difficulty: "easy",
+      taxBillUrl:
+        "https://fl-gadsden.publicaccessnow.com/TaxCollector/PropertyTaxSearch.aspx",
     },
     "Gilchrist County": {
       url: "https://broker.edmundsassoc.com/CPSS/?municipalId=GBOCFL#PERMIT_SUMMARY",
       note: "They use CPSS for permit lookup. For more info visit: https://gilchrist.fl.us/onlinepermitting/",
       difficulty: "medium",
+      taxBillUrl: "https://gilchrist.floridatax.us/AccountSearch?s=pt",
     },
     "Glades County": {
       url: "https://gladescounty.portal.iworq.net/GLADESCOUNTY/permits/600",
       note: "Search by address or parcel# should be relatively easy.",
       difficulty: "easy",
+      taxBillUrl:
+        "https://www.mygladescountytaxcollector.com/Property/SearchSelect?Accept=true&ClearData=True",
     },
     "Gulf County": {
       url: "https://www.gulfcounty-fl.gov/county_government/building_department",
       note: "Offline-Only: Gulf County does not have an online permit lookup system. You may have to contact the office directly. To contact: https://permithunt.com/directory/state/florida/county/gulf",
       difficulty: "hard",
       offlineOnly: true,
+      taxBillUrl:
+        "https://www.gulfcountytaxcollector.com/Property/SearchSelect?Accept=true&ClearData=True",
     },
     "Hamilton County": {
       url: "https://www.hamiltontn.gov/bldgpermitsreport/Default.aspx",
       note: "Search permit by date range.",
       difficulty: "medium",
+      taxBillUrl:
+        "https://www.hamiltoncountytaxcollector.com/Property/SearchSelect?Accept=true&ClearData=True",
     },
     "Hardee County": {
       url: "https://hardeecounty.portal.iworq.net/HARDEECOUNTY/permits/600",
       note: "Search by address or parcel# should be relatively easy.",
       difficulty: "easy",
+      taxBillUrl:
+        "https://www.hardeecountytaxcollector.com/Property/SearchSelect?Accept=true&ClearData=True",
     },
     "Hendry County": {
       url: "https://hndy-trk.aspgov.com/eTRAKiT/Search/permit.aspx",
       note: "Search by address or parcel# should be relatively easy.",
       difficulty: "easy",
+      taxBillUrl:
+        "https://property.hendry.tax/ptaxweb/editPropertySearch2.action;jsessionid=6774AAA8465D6C44F2FC9EB54F4475E5",
     },
     "Hernando County": {
       url: "https://pvweb.hernandopa-fl.us/Default",
       note: "Need permit or application number to search.",
       difficulty: "medium",
+      taxBillUrl: "https://county-taxes.net/fl-hernando/property-tax",
     },
     "Highlands County": {
       url: "http://permits.hcbcc.org//eGovPlus90/permit/perm_status.aspx",
       note: "Search by address or parcel# should be relatively easy.",
       difficulty: "easy",
+      taxBillUrl:
+        "https://property.highlands.tax/ptaxweb/editPropertySearch2.action;jsessionid=9D99E7356AAF713842F6998E4120EFE6",
     },
     "Hillsborough County": {
       url: "https://hcfl.gov/businesses/development-services-records/building-permitting-records-searches",
       note: "Depend on the year, there are different systems.",
       difficulty: "medium",
+      taxBillUrl: "https://county-taxes.net/hillsborough/property-tax",
     },
     "Holmes County": {
       url: "https://holmescountyfla.com/building-planning-zoning/",
       note: "Offline-Only: Holmes County does not have an online permit lookup system. You may have to contact the office directly. To contact: https://permithunt.com/directory/state/florida/county/holmes",
       difficulty: "hard",
       offlineOnly: true,
+      taxBillUrl:
+        "https://www.holmescountytaxcollector.com/Property/SearchSelect?Accept=true&ClearData=True",
     },
     "Indian River County": {
       url: "https://www.mygovernmentonline.org/permits/",
       note: "Indian River County uses MGO for permit lookup, you have to register for it. MGO is a comprehensive online service that allows users to apply for permits, pay fees, request inspections, and search for permit data. Users will need to create an account on the MGO platform and select the correct jurisdiction.",
       difficulty: "easy",
+      taxBillUrl: "https://county-taxes.net/indianriver/property-tax",
     },
     "Jackson County": {
       url: "https://jacksoncounty.portal.iworq.net/JACKSONCOUNTY/permits/600",
       note: "Search by address or parcel# should be relatively easy.",
       difficulty: "easy",
+      taxBillUrl:
+        "https://www.jacksoncountytaxcollector.com/Property/SearchSelect?Accept=true&ClearData=True",
     },
     "Jefferson County": {
       url: "https://www.jeffersoncountyfl.gov/p/county-departments/building",
       note: "Offline-Only: Jefferson County does not have an online permit lookup system. You may have to contact the office directly. To contact: https://permithunt.com/directory/state/florida/county/jefferson",
       difficulty: "hard",
       offlineOnly: true,
+      taxBillUrl:
+        "https://www.jeffersoncountytaxcollector.com/Property/SearchSelect?Accept=true&ClearData=True",
     },
     "Lafayette County": {
       url: "https://app.powerbi.com/view?r=eyJrIjoiNmI3MjhlMDUtNDUzMS00N2ZlLWIyNjEtNGJiNWQzMWU5Y2E3IiwidCI6IjY4ZDY5NDZlLWZmOWQtNGNkNy1iZTYzLWNlNmM3ZDQ3MmIxNCIsImMiOjF9&pageName=ReportSection",
       note: "Search by address or parcel# should be relatively easy.",
       difficulty: "easy",
+      taxBillUrl: "https://lafayette.floridatax.us/AccountSearch?s=pt",
     },
     "Lake County": {
       url: "https://lakecountyfl.gov/building-services/permitting-information",
       note: "Various search options, search by address or parcel# should be relatively easy.",
       difficulty: "easy",
+      taxBillUrl: "https://county-taxes.net/lake/property-tax",
     },
     "Lee County": {
       url: "https://aca-prod.accela.com/LEECO/Cap/CapHome.aspx?module=Permitting&TabName=Home",
       note: "Click Advanced Search -> Search Records/Applications -> Permitting",
       difficulty: "medium",
+      taxBillUrl: "https://county-taxes.net/fl-lee/property-tax",
     },
     "Leon County": {
       url: "https://aca-prod.accela.com/LEONCO/Cap/CapHome.aspx?module=Building&TabName=Building",
       note: "Search by address or parcel# should be relatively easy.",
       difficulty: "easy",
+      taxBillUrl:
+        "https://wwwtax2.leoncountyfl.gov/itm/PropertySearchName.aspx?AspxAutoDetectCookieSupport=1",
     },
     "Levy County": {
       url: "https://levycountyfl.nextrequest.com/",
       note: "You have to submit a request to the county to get the permit information. For direct contact: https://permithunt.com/directory/state/florida/county/Levy",
       difficulty: "hard",
+      taxBillUrl: "https://levyitm.wfbsusa.com/PropertySearchName.aspx",
     },
     "Liberty County": {
       url: "https://libertycountyfl.portal.iworq.net/portalhome/libertycountyfl",
       note: "Search by address or parcel# should be relatively easy.",
       difficulty: "easy",
+      taxBillUrl:
+        "https://www.libertycountytaxcollector.com/Property/SearchSelect?Accept=true&ClearData=True",
     },
     "Madison County": {
       url: "https://madisoncountyfl.com/departments-services/building-department/",
       note: "Offline-Only: Madison County does not have an online permit lookup system. You may have to contact the office directly. To contact: https://permithunt.com/directory/state/florida/county/madison",
       offlineOnly: true,
+      taxBillUrl:
+        "https://www.madisoncountytaxcollector.com/Property/SearchSelect?Accept=true&ClearData=True",
     },
     "Manatee County": {
       url: "https://aca-prod.accela.com/MANATEE/Cap/CapHome.aspx?module=Building&TabName=Building",
       note: "Search by address or parcel# should be relatively easy.",
       difficulty: "easy",
+      taxBillUrl:
+        "https://secure.taxcollector.com/ptaxweb/editPropertySearch2.action;jsessionid=9F4E16F83ADA628F5F1AE2D5EF33BA7F",
     },
     "Marion County": {
       url: "https://bcc.marionfl.org/cdplus/",
       note: "Search by address or parcel# should be relatively easy.",
       difficulty: "easy",
+      taxBillUrl: "https://www.mariontax.com/itm/PropertySearchAddress.aspx",
     },
     "Martin County": {
       url: "https://aca-prod.accela.com/MARTINCO/Cap/CapHome.aspx?module=Building&TabName=Building",
       note: "Search by address or parcel# should be relatively easy.",
       difficulty: "easy",
+      taxBillUrl: "https://county-taxes.net/fl-martin/property-tax",
     },
     "Miami-Dade County": {
       url: "https://wwwx.miamidade.gov/Apps/RER/ePermittingMenu/Home/Permits",
       note: "User needs to submit a request to the county to get the permit information. For direct contact: https://permithunt.com/directory/state/florida/county/miami-dade",
       difficulty: "hard",
+      taxBillUrl: "https://county-taxes.net/fl-miamidade/property-tax",
     },
     "Monroe County": {
       url: "https://www.monroecounty-fl.gov/149/Building-and-Permitting",
       note: "Various permit search based on year, active, inactive, etc. Before 10/1/2022, visit:https://mcesearch.monroecounty-fl.gov/search/permits, for current active ones, vist: https://fa-ettl-saasfaprod1.fa.ocs.oraclecloud.com/fscmUI/publicSector.html?root=PSCHM_GIS_MAP",
       difficulty: "hard",
+      taxBillUrl: "https://county-taxes.net/fl-monroe/property-tax",
     },
     "Nassau County": {
       url: "https://www.nassaucountyfl.com/136/Building-Department",
       note: "Offline-Only: Nassau County does not have an online permit lookup system. You may have to contact the office directly. To contact: https://permithunt.com/directory/state/florida/county/nassau",
       offlineOnly: true,
+      taxBillUrl: "https://county-taxes.net/fl-nassau/property-tax",
     },
     "Okaloosa County": {
       url: "https://permits.myokaloosa.com/Default.asp?Build=PM.pmPermit.SearchForm&utask=normalview",
       note: "Search by address or parcel# should be relatively easy.",
       difficulty: "easy",
+      taxBillUrl: "https://county-taxes.net/okaloosa/property-tax",
     },
     "Okeechobee County": {
       url: "https://www.okeechobeecountyfl.gov/departments/community-development/building-department",
       note: "Offline-Only: Okeechobee County does not have an online permit lookup system. You may have to contact the office directly. To contact: https://permithunt.com/directory/state/florida/county/okeechobee",
       difficulty: "hard",
       offlineOnly: true,
+      taxBillUrl:
+        "https://www.okeechobeecountytaxcollector.com/Property/SearchSelect?Accept=true&ClearData=True",
     },
     "Orange County": {
       url: "https://fasttrack.ocfl.net/OnlineServices/PermitsAllTypes.aspx",
       note: "Search by address or parcel# should be relatively easy for various types of permits.",
       difficulty: "easy",
+      taxBillUrl: "https://county-taxes.net/fl-orange/property-tax",
     },
     "Osceola County": {
       url: "https://permits.osceola.org/CitizenAccess/Cap/CapHome.aspx?module=Building",
       note: "Search by address or parcel# should be relatively easy.",
       difficulty: "easy",
+      taxBillUrl: "https://county-taxes.net/osceola/property-tax",
     },
     "Palm Beach County": {
       url: "https://www.pbcgov.org/ePZB.Admin.WebSPA/#/Container/Permits_Inspections",
       note: "Search by address or parcel# should be relatively easy.",
       difficulty: "easy",
+      taxBillUrl: "https://pbctax.publicaccessnow.com/PropertyTax.aspx",
     },
     "Pasco County": {
       url: "https://aca-prod.accela.com/PASCO/customization/common/searchPage.aspx",
       note: "Search by address or parcel# should be relatively easy.",
       difficulty: "easy",
+      taxBillUrl: "https://county-taxes.net/fl-pasco/property-tax",
     },
     "Pinellas County": {
       url: "https://aca-prod.accela.com/PINELLAS/Cap/CapHome.aspx?module=Building&TabName=Building",
       note: "Search by address or parcel# should be relatively easy.",
       difficulty: "easy",
+      taxBillUrl: "https://county-taxes.net/pinellas/property-tax",
     },
     "Polk County": {
       url: "https://aca-prod.accela.com/POLKCO/Cap/CapHome.aspx?module=Building&TabName=Building",
       note: "Search by address or parcel# should be relatively easy.",
       difficulty: "easy",
+      taxBillUrl: "https://polk.payfltaxes.com/lookup/property-tax",
     },
     "Putnam County": {
       url: "https://www4.citizenserve.com/Portal/PortalController?Action=showSearchPage&ctzPagePrefix=Portal_&type=Permit",
       note: "Search by address or parcel# should be relatively easy.",
       difficulty: "easy",
+      taxBillUrl:
+        "https://ptaxweb.putnamtax.com/ptaxweb/editPropertySearch2.action;jsessionid=3B8DEDBAC96A8005E54134C2E47EE703",
     },
     "Santa Rosa County": {
       url: "https://www.mgoconnect.org/cp/search?jid=276&pid=3",
       note: "Santa Rosa County uses MGO for permit lookup, you have to register for it. MGO is a comprehensive online service that allows users to apply for permits, pay fees, request inspections, and search for permit data. Users will need to create an account on the MGO platform and select the correct jurisdiction.",
       difficulty: "hard",
+      taxBillUrl: "https://county-taxes.net/fl-santarosa/property-tax",
     },
     "Sarasota County": {
       url: "https://aca-prod.accela.com/SARASOTACO/Default.aspx",
       note: "Search by address or parcel# should be relatively easy, but you have to login to the system.",
       difficulty: "medium",
+      taxBillUrl:
+        "https://sarasotataxcollector.publicaccessnow.com/TaxCollector/PropertyTaxSearch.aspx",
     },
     "Seminole County": {
       url: "https://semc-egov.aspgov.com/Click2GovBP/selectpermit.html",
       note: "Search by address or parcel# should be relatively easy.",
       difficulty: "easy",
+      taxBillUrl:
+        "https://county-taxes.net/fl-seminole/fl-seminole/property-tax",
     },
     "St. Johns County": {
       url: "https://webapp.sjcfl.us/watswebx/permit/SearchPermit.aspx",
       note: "Search by address or parcel# should be relatively easy, but a bit hectic.",
       difficulty: "medium",
+      taxBillUrl: "https://www.stjohnstax.us/AccountSearch?s=pt",
     },
     "St. Lucie County": {
       url: "https://stluciecountyfl-energovpub.tylerhost.net/Apps/SelfService#/search",
       note: "Search by address or parcel# should be relatively easy.",
       difficulty: "easy",
+      taxBillUrl: "https://county-taxes.net/stlucie/property-tax",
     },
     "Sumter County": {
       url: "https://gvld-trk.aspgov.com/eTRAKiT/login.aspx?lt=either&rd=~/Search/permit.aspx",
       note: "User has to login to the system.",
       difficulty: "medium",
+      taxBillUrl: "https://county-taxes.net/sumter/property-tax",
     },
     "Suwannee County": {
       url: "https://permithunt.com/directory/state/florida/county/suwanee",
       note: "Offline-Only: Suwannee County does not have an online permit lookup system. You may have to contact the office directly. To contact: https://permithunt.com/directory/state/florida/county/suwanee",
       difficulty: "hard",
       offlineOnly: true,
+      taxBillUrl: "https://suwannee.floridatax.us/AccountSearch?s=pt",
     },
     "Taylor County": {
       url: "https://www.taylorcountygov.com/departments/building_planning/index.php",
       note: "Offline-Only: Taylor County does not have an online permit lookup system. You may have to contact the office directly. To contact: https://permithunt.com/directory/state/florida/county/taylor",
       difficulty: "hard",
       offlineOnly: true,
+      taxBillUrl: "https://taylor.floridatax.us/AccountSearch?s=pt",
     },
     "Union County": {
       url: "https://unioncounty-fl.gov/building-department/",
       note: "Offline-Only: Union County does not have an online permit lookup system. You may have to contact the office directly. To contact: https://permithunt.com/directory/state/florida/county/union",
       difficulty: "hard",
       offlineOnly: true,
+      taxBillUrl:
+        "https://www.unioncountytc.com/Property/SearchSelect?Accept=true&ClearData=True",
     },
     "Volusia County": {
       url: "https://connectlivepermits.org/citizenportal/app/public-search",
       note: "Search by address or parcel# should be relatively easy.",
       difficulty: "easy",
+      taxBillUrl: "https://county-taxes.net/vctaxcollector/property-tax",
     },
     "Wakulla County": {
       url: "https://www4.citizenserve.com/Portal/PortalController?Action=showSearchPage&ctzPagePrefix=Portal_&type=Permit",
       note: "Search by address or parcel# should be relatively easy.",
       difficulty: "easy",
+      taxBillUrl:
+        "https://www.wakullacountytaxcollector.com/Property/SearchSelect?Accept=true&ClearData=True",
     },
     "Walton County": {
       url: "https://waltoncountyfl-energovweb.tylerhost.net/apps/SelfService#/search",
       note: "Search by address or parcel# should be relatively easy.",
       difficulty: "easy",
+      taxBillUrl: "https://county-taxes.net/fl-walton/property-tax",
     },
     "Washington County": {
       url: "https://portal.iworq.net/WASHINGTONFL/permits/601",
       note: "Search by address or parcel# should be relatively easy.",
       difficulty: "easy",
+      taxBillUrl:
+        "https://www.washingtoncountytaxcollector.com/Property/SearchSelect?Accept=true&ClearData=True",
     },
   },
 };
